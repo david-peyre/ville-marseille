@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    background: url(assets/bg.jpg) no-repeat center/cover ;
+    backdrop-filter: blur(5px);
+    font-family: 'PT Serif', serif;
+}
+
+.fondations {
+    background-color: rgba(255, 255, 255, 0.801);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid rgb(100, 171, 219);
+}
+
+.fondations h3 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.fondations img {
+    border-radius: 20px;
+}
+
+.siecles {
+    background-color: rgba(255, 255, 255, 0.801);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid rgb(100, 171, 219);
+}
+
+.siecles h3 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.ajd {
+    background-color: rgba(255, 255, 255, 0.801);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid rgb(100, 171, 219);
+}
+
+.ajd h3 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.Informations {
+    background-color: rgba(255, 255, 255, 0.801);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    
+    border: 2px solid rgb(100, 171, 219);
+
+}
+
+.Informations h3 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Informations ul {
+    list-style: none;
+    text-align: center;
+    margin-left: -35px;
+}
+
+.Informations li {
+    margin: 0%;
+    padding: 0px 0px 0px -20px;
+}
+
+.Transports {
+    background-color: rgba(255, 255, 255, 0.801);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    
+    border: 2px solid rgb(100, 171, 219);
+
+}
+
+.Transports h3 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Transports ul {
+    list-style: none;
+    text-align: center;
+    margin-left: -35px;
+}
